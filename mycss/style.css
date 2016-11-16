@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+html {
+  margin-top: 0;
+}
+#backgroundAbstract {
+  background-image: url(../images/abstract-pattern1.jpg);
+  height: 1200px;
+  width: 100%;
+  margin-top: -20px;
+  background-size: cover;
+}
+
+
+
+.btn {
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+}
+
+#backgroundAbstract span {
+  color: grey;
+  background-color: #140f0f;
+}
+
+#menu {
+  position: fixed;
+  margin-left: 82%;
+  z-index: 3;
+  margin-top: 30px;
+}
+
+.dropdown-toggle {
+  color: grey;
+  background-color: #140f0f;
+  border-color: #000;
+  height: 40px;
+  width: 60px;
+
+}
+
+.dropdown-toggle:hover {
+  color: grey;
+  background-color: #140f0f;
+  border-color: #000;
+  opacity: .8;
+  transition: .5s;
+}
+
+
+.dropdown-toggle:focus {
+  color: grey;
+  background-color: #140f0f;
+  border-color: #000;
+}
+
+.dropdown {
+  float: right;
+  margin-right: 50px;
+}
+
+.dropdown-header {
+  background-color: #140f0f;
+  opacity: .9;
+}
+
+.dropdown-menu {
+  background-color: #140f0f;
+  opacity: .9;
+  right: 0;
+}
+
+/* INTRO TO ALEX SECTION */
+
+.welcome {
+  background-color: #000;
+  color: #e5e6eb;
+  opacity: .3;
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-weight: 100;
+  position: fixed;
+  top: 0;
+}
+
+/*
+.landing {
+  width: 350px;
+  height: 350px;
+  border: 1px solid;
+  border-color:gradient(start=#fff, end=#000, midpoint=50%);
+  /*margin-top: -900px;
+  left: 50%;
+  margin-left: -175px;
+  position: absolute;
+  top: 180px;
+  border-radius: 50%;
+}*/
+
+.animated,
+.rotateIn {
+  opacity: .3;
+  animation-iteration-count: infinite;
+  -webkit-transition-duration: 8s;
+    transition-duration: 5s;
+}
+
+.landing {
+  margin: auto;
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  margin-left: -175px;
+  background: transparent;
+  border: 5px solid;
+  border-radius: 50%;
+  -moz-border-image: -moz-linear-gradient(top right, #FC913A 0%, #FF4E50 100%);
+  -webkit-border-image: -webkit-radial-gradient(top right, #FC913A 0%, #FF4E50 100%);
+  border-image: radial-gradient(to bottom left, #FC913A 0%, #FF4E50 100%);
+  border-image-slice: 1;
+}
+
+
+.ux h1 {
+  padding-top: 300px;
+  margin-left: 38%;
+  font-weight: 300;
+  color: #fff;
+}
+
+.ux h2 {
+  padding-top: 20px;
+  margin-left: 41%;
+  font-weight: 100;
+  color: #fff;
+  font-size: 15px;
+}
