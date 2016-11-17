@@ -2172,8 +2172,8 @@
   from {
     -webkit-transform-origin: center;
     transform-origin: center;
-    -webkit-transform: rotate3d(1, 0, 0, -200deg);
-    transform: rotate3d(1, 0, 0, -200deg);
+    -webkit-transform: rotate3d(0, 0, 1, -360deg);
+    transform: rotate3d(0, 0, 1, -360deg);
     opacity: 0;
   }
 
@@ -2207,7 +2207,7 @@
 .rotateIn {
   -webkit-animation-name: rotateIn;
   animation-name: rotateIn;
-  animation-duration: 4.5s;
+  animation-duration: 5s;
 }
 
 @-webkit-keyframes rotateInDownLeft {

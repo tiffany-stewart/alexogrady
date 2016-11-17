@@ -2,6 +2,8 @@
 <html>
 <head>
   <title>Alex O'Grady</title>
+    <!--IONICONS-->
+    <link rel="ionicons/css/ionicons.css">
     <!--GOOGLE FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
@@ -19,10 +21,13 @@
 </head>
 <body>
 
+<!-- WALLPAPER -->
+
   <div id="backgroundAbstract">
 
-    <div id="menu">
+<!-- BOOTSTRAP DROP DOWN -->
 
+    <div id="menu">
     <div class="dropdown">
     <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">
       <span class="glyphicon glyphicon-align-right"></span>
@@ -37,26 +42,91 @@
   </div>
 </div>
 
+<!-- TOP AO -->
+
   <div class="welcome">
     Alex O'Grady
   </div>
 
+<!-- CENTER LANDING -->
+
   <div class="ux">
     <h1>UX DESIGNER</h1>
     <h2>SAN FRANCISCO BASED</h2>
+    <a href="#myWork">
+    <i class="fa fa-angle-down hover hvr-hang" aria-hidden="true"></i>
+    <!--
+    <i class="fa fa-chevron-down hover hvr-hang" aria-hidden="true"></i>
+  -->
+    </a>
+    <h3>MY WORK</h3>
+  </div>
+  <div class="landing animated rotateIn">
   </div>
 
-  <div class="landing animated rotateIn" style: border-radius="50%">
+  <div id="myWork">
+    <div class="showCase">
+      <h1>SHOWCASE</h1>
+    </div>
+    <div class="section group">
+    	<div class="col span_1_of_3">
+    	<h1>CAMPFINDER</h1>
+      <figure class="uxphoto">
+      <img class="firstimg" src="images/campfinder.png">
+      </figure>
+      <h3>
+        My Role: UX Designer, Interaction Designer, UI Designer</h3>
+​      <p>
+        The Challenge: Design the payment flow of a native mobile app that allows users to book last minute camping trips.
+      </p>
+    	</div>
+    	<div class="col span_1_of_3">
+    	<h1>HERTZ</h1>
+      <figure class="uxphoto">
+      <img src="images/hertz.png">
+      </figure>
+      <h3>
+        My Role: UX Researcher, UX Designer, Interaction Designer, UI Designer</h3>
+​      <p>
+        The Challenge: Hertz is experiencing a steady decline in short term car rentals. Myself and a team of 3 other designers created a digital offering that would allow them to compete in this area, while providing users with a low-cost car rental alternative.
+      </p>
+    	</div>
+    	<div class="col span_1_of_3">
+    	<h1>COLE HARDWARE</h1>
+      <figure class="uxphoto">
+      <img src="images/colehardware.png">
+      </figure>
+      <h3>
+        My Role: UX Designer<br><br></h3>
+​      <p>
+        The Challenge: Cole Hardware hasn't updated their website in a number of years. My challenge was to redesign their e-commerce site in keeping with best modern web practices so Cole can remain competitive with other online hardware retailers.
+      </p>
+    	</div>
+    </div>
+    </div>
+</div><!--END BGC-->
 
-
+<div id="footerBgc">
+  <div class="contactMe">
+    <h1>CONTACT</h1>
+    <div class="contactBoxes">
+    <input type="text" placeholder="NAME">
+    <br>
+    <input type="text" placeholder="EMAIL">
+    <br>
+    <textarea placeholder="MESSAGE" rows="8" cols="47"></textarea>
+    <br>
+    <button type="button">SEND</button>
   </div>
 
+    <div class="social">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-codepen" aria-hidden="true"></i>
+      <i class="fa fa-github" aria-hidden="true"></i>
 
-
+  </div>
 </div>
-
-</div>
-
 
 
 </body>
