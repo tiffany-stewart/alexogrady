@@ -79,7 +79,7 @@ html {
 
 .welcome {
   background-color: #000;
-  color: #e5e6eb;
+  color: #fff;
   opacity: .3;
   height: 50px;
   width: 100%;
@@ -203,6 +203,7 @@ html {
   font-size: 15px;
   color: #fff;
   padding-top: 20px;
+  padding-bottom: 10px;
 }
 
 .col h3 {
@@ -278,7 +279,7 @@ html {
 
 #footerBgc {
   background-image: url(../images/coppercurved.jpeg);
-  height: 500px;
+  height: 520px;
   width: 100%;
   margin-top: -20px;
   background-size: cover;
