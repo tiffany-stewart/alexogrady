@@ -1,0 +1,347 @@
+#backgroundCampfinder {
+  background-image: url(../images/campy.png);
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  margin-top: 50px;
+  z-index: -19;
+}
+
+.btn {
+  float: right;
+  margin-right: 30px;
+  margin-top: 60px;
+}
+
+#menu {
+  position: fixed;
+  margin-left: 82%;
+  z-index: 3;
+  margin-top: 30px;
+}
+
+.dropdown-toggle {
+  color: grey;
+  background-color: #140f0f;
+  border-color: #000;
+  height: 40px;
+  width: 60px;
+
+}
+
+.dropdown-toggle:hover {
+  color: grey;
+  background-color: #140f0f;
+  border-color: #000;
+  opacity: .8;
+  transition: .5s;
+}
+
+
+.dropdown-toggle:focus {
+  color: grey;
+  background-color: #140f0f;
+  border-color: #000;
+}
+
+.dropdown {
+  float: right;
+  margin-right: 50px;
+}
+
+.dropdown-header {
+  background-color: #140f0f;
+  opacity: .9;
+}
+
+.dropdown-menu {
+  background-color: #140f0f;
+  opacity: .9;
+  right: 0;
+}
+
+.welcome {
+  background-color: #000;
+  color: #fff;
+  opacity: .3;
+  height: 50px;
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 15px;
+  font-weight: 100;
+  position: fixed;
+  top: 0;
+}
+
+#menu .bttn {
+  margin-top: 0;
+  border-radius: 3px;
+}
+
+.cf {
+  opacity: .8;
+}
+
+.helloCampfinder h1 {
+  color: #fff;
+  position: absolute;
+  margin-left: 27%;
+  margin-top: 190px;
+  font-size: 100px;
+  font-weight: 100;
+}
+
+/*  SECTIONS  */
+.helloCampfinder {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1%;
+}
+.col:first-child {  margin-left: 0; }
+
+.col h4 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.col p {
+  padding-left: 10px;
+}
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.5%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+.projectDetails {
+  width: 90%;
+  background-color: #f7ad0e;
+  height: 300px;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.projectDetails h1 {
+  text-align: center;
+  color: #fff;
+  font-weight: 100;
+  padding-top: 8px;
+  padding-left: 160px;
+
+}
+
+.projectDetails p {
+  display: inline;
+  padding-left: 10px;
+}
+
+.projectDetails p.info {
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+  font-weight: 100;
+
+}
+
+.projectDetails ul {
+  list-style: none;
+  padding: 0;
+  padding-top: 30px;
+}
+
+.projectDetails li {
+  padding-bottom: 10px;
+}
+
+/* ---- VISION SECTION ----- */
+
+hr {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.vision {
+  width: 90%;
+  margin: auto;
+}
+
+.vision h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.vision p {
+  text-align: center;
+}
+
+/* -------- FRAMEWORK SECTION ------- */
+
+.framework {
+  width: 90%;
+  margin: auto;
+}
+
+.framework h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+.framework p {
+  text-align: center;
+}
+
+.framework img.first {
+  height: 400px;
+  margin-left: 36%;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.framework img {
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 11%;
+}
+
+.framework img.frame {
+  width: 250px;
+  height: auto;
+}
+
+.framework img.wire {
+  margin-left: 19%;
+}
+
+/* ----- DESIGN SECTION ---- */
+
+.design {
+  width: 90%;
+  margin: auto;
+}
+
+.design h1 {
+  text-align: center;
+  font-weight: 100;
+  padding-bottom: 30px;
+}
+
+.design p {
+  text-align: center;
+}
+
+/* ---- GIF SECTION -----*/
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+  margin-top: 80px;
+}
+
+.leftMargin {
+  margin-left: 15%;
+  width: 80%;
+}
+
+.right {
+  margin-right: 35%;
+  margin-left: -15%;
+}
+
+.right h2 {
+  margin-top: 150px;
+  font-weight: 300;
+}
+
+.leftMargin img {
+  height: 600px;
+}
+
+.leftMargin h2 {
+  margin-top: 150px;
+  font-weight: 300;
+}
+
+hr.line {
+  width: 200px;
+  color: grey;
+  border: 1px solid;
+}
+
+
+
+/*  COLUMN SETUP  */
+.gifright {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.gifright:first-child { margin-left: 0; }
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+/*  GRID OF TWO  */
+.span_2_of_2 {
+	width: 100%;
+}
+.span_1_of_2 {
+	width: 49.2%;
+}
+
+/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	.col {
+		margin: 1% 0 1% 0%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.span_2_of_2, .span_1_of_2 { width: 100%; }
+}
+
+
+/* ----- 3 PHONES etc ------ */
+
+.threePhones {
+  margin-top: 60px;
+  margin-left:6.5%;
+}
+
+.threePhones img {
+  height: 500px;
+}

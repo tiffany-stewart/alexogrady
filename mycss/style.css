@@ -152,7 +152,7 @@ html {
 
 .ux i {
   margin-left: 49%;
-  color: #b87333;
+  color: #CEAD92;
   font-size: 60px;
   margin-top: 310px;
 }
@@ -169,7 +169,7 @@ html {
 
 #myWork {
   width: 100%;
-  height: 625px;
+  height: 655px;
   z-index: 5;
   background-color: #1e1f26;
   margin-top: 275px;
@@ -219,6 +219,7 @@ html {
   font-weight: 100;
   width: 90%;
   padding-left: 5px;
+
 }
 
 .col img {
@@ -283,7 +284,8 @@ html {
   width: 100%;
   margin-top: -20px;
   background-size: cover;
-  margin-top: 620px;
+  margin-top: 650px;
+  z-index: -3;
 }
 
 .contactMe {
@@ -365,3 +367,11 @@ html {
   color: #b87333;
   transition: .5s;
 }
+
+
+/* ----------------------- */
+/* ----------------------- */
+/* ----------------------- */
+/* ----------------------- */
+/* ----------------------- */
+/* CAMPFINDER CSS */
